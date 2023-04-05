@@ -1,4 +1,4 @@
-Start with an array of strings with a mix of uppercase and lowercase letters. Print every word in all lowercase letters.
+#Start with an array of strings with a mix of uppercase and lowercase letters. Print every word in all lowercase letters.
 # 1. printing the new strings in all lowercase 
 # 2. working with string variables. 
 # 3. Are the uppercase and lowercase in any order within the array of strings?
