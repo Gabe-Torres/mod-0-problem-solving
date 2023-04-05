@@ -11,3 +11,18 @@ random.each do |rand|
     rand.downcase!
 p rand
 end
+
+# 1. Start with an array of travel destinations. Print every travel destination in alphabetical order embedded in a sentence using string interpolation
+# 2. Printing an array of travel destinations in alphabetical order in a sentence
+# 3. Working a with an array of strings
+# 4. Making list? Sorting out the array into a new array?
+# 5. Sort method string interpolation 
+#   Array of strings [travel destinations]
+#   using sort! method on array of strings. 
+#   Print sorted strings in a sentence of its own with each method.
+travel_spots = ["New York", "Destin", "Seattle"]
+travel_spots.sort! 
+travel_spots.each do |spots|
+    p "Yooo, Welcome to #{spots}. Enjoy your time!"
+end
+
