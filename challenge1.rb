@@ -8,8 +8,7 @@
 # print new array of strings in all lowercase 
 random = ["DvGnMoM", "LKhhGT", "HHyvyD"]
 random.each do |rand|
-    rand.downcase!
-p rand
+   p rand.downcase
 end
 # 6. Solution was to use the each method to apply downcase on every string within the array. 
 
@@ -23,9 +22,9 @@ end
 #   Print sorted strings in a sentence of its own with each method.
 # 5. Start with an array of travel destinations. Print every travel destination in alphabetical order embedded in a sentence using string interpolation
 travel_spots = ["New York", "Destin", "Seattle"]
-travel_spots.sort! 
-travel_spots.each do |spots|
-    p "Yooo, Welcome to #{spots}. Enjoy your time!"
+travel_spots.sort 
+travel_spots.each do |spot|
+    p "Yooo, Welcome to #{spot}. Enjoy your time!"
 end
 # 6. This was kind of difficult for me. Remembered ruby works top to bottom. Had to use my sort method first.
 
@@ -42,4 +41,4 @@ end
 sentence = "mod 0 was really fun, i cant wait for mod 1!".split.map(&:capitalize).join(" ")
 p sentence
 # 6. I had to find a method that return my string with every first word capitalize, Used the split and join method also.
-
+#feedback: From what I understand the &:method is a way to call the capitalize method on on every string in my array. Found the usage on stackoverflow and seemed like an easy and fast way to complete the problem! I might stay away from it though since I really don't understand the concept. Can &:method be used on any method?
